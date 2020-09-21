@@ -11,5 +11,4 @@ $('.card').hover(function() {
 
 $(document).ready(() => {
     $('.card:last-of-type').trigger("mouseover");
-    // console.log($('.card:last-of-type'))
 })

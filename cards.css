@@ -106,15 +106,31 @@ a {
 }
 
 .card-body p{
-    max-height: 10rem;
+    max-height: 10.4rem;
     overflow: hidden;
+    /* background: linear-gradient(180deg, rgb(255,255,255) 0%, rgb(255,255,255) 60%, rgb(23, 20, 29, 1) 100%); */
+    /* -webkit-text-fill-color: transparent; */
+    /* text-shadow: none; */
+    /* -webkit-background-clip: text; */
+    /* background-clip: text; */
+    text-overflow: ellipsis;
 }
+
+/* .card-body .overlay {
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%,  rgba(23, 20, 29, 1) 10%);
+    position: absolute;
+    top: 200px;
+    width: 350px;
+    height: calc(100% - 100px);
+
+} */
 
 .tags {
     margin: 1rem 0 2rem;
     padding: .5rem 0 1rem;
     line-height: 2;
     margin-bottom: 0;
+    display: none;
 }
 
 .tags a {
