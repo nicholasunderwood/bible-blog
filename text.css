@@ -9,24 +9,28 @@
 #text-body {
     width: 90%;
     height: fit-content;
-    max-height: 95vh;
+    max-height: 85vh !important;
     margin: 5vh auto 0 auto;
     padding: 1.5rem;
     border-radius: 16px;
     background: #17141d;
     box-shadow: -1rem 0 3rem #000;
-    overflow: auto;
-    margin-bottom: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column;
 }
 
 #text-header{
+    line-height: 24px;
     display: flex;
     justify-content: space-between;
+    flex: 0 1 auto;
+    margin-bottom: 1rem;
 }
 
 #text-header h1 {
     font-size: 24px;
-    margin: .25rem 0 auto;
+    margin: 0;
     text-decoration: none;
     color: inherit;
     border: 0;
@@ -40,12 +44,17 @@
 
 #text-header span {
     font-size: 20px;
-    margin: 0 0 1rem;
     color: #7a7a8c;
+    flex-shrink: 0;
 }
 
 #text-content {
-    margin: 1rem 0;
+    flex: 1 1 auto;
     font-size: 20px;
-    padding-bottom: 30px;
+    overflow: auto;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+}
+
+p {
+    margin: 0;
 }
