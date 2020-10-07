@@ -16,6 +16,7 @@
     background: #17141d;
     box-shadow: -1rem 0 3rem #000;
     overflow: auto;
+    margin-bottom: 30px;
 }
 
 #text-header{
@@ -46,4 +47,5 @@
 #text-content {
     margin: 1rem 0;
     font-size: 20px;
+    padding-bottom: 30px;
 }
