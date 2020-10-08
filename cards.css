@@ -37,7 +37,7 @@ a {
 
 
 .card {
-    /* min-height: 350px; */
+    min-height: 200px;
     width: 350px;
     min-width: 250px;
     padding: 1.5rem;
@@ -48,7 +48,7 @@ a {
     flex-direction: column;
     transition: .4s;
     margin: 0;
-    /* scroll-snap-align: start; */
+    scroll-snap-align: start;
     clear: both;
     position: relative;
 }
@@ -66,16 +66,7 @@ a {
 }
 
 .card:last-child{
-    margin-bottom: 150px    ;
-}
-
-.card:hover:not(:last-child)~.card:last-child {
-    margin-bottom: 0;
-}
-
-
-.card-header {
-    margin-bottom: auto;
+    margin-bottom: 150px;
 }
 
 .card-header p {
