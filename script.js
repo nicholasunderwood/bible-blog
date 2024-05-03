@@ -10,5 +10,5 @@ $('.card').hover(function() {
 });
 
 $(document).ready(() => {
-    $('.card:last-of-type').trigger("mouseover");
+    $('.card:first-of-type').trigger("mouseover");
 })
