@@ -55,6 +55,21 @@
     padding: 0.5rem 0.5rem 0.5rem 0;
 }
 
+
+#text-content .img-wrapper {
+    float: right;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    max-width: 50%;
+
+}
+
+#text-content .img-wrapper>img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 1em;
+}
+
 p {
     margin: 0;
 }

@@ -11,6 +11,8 @@ body {
     font-family: 'DM Mono', monospace;
     display: flex;
     flex-direction: row;
+    overflow-x: hidden;
+
 }
 
 a {
@@ -103,6 +105,11 @@ a {
     /* -webkit-background-clip: text; */
     /* background-clip: text; */
     text-overflow: ellipsis;
+    /* text-align: justify; */
+}
+
+.card-list .img-wrapper{
+    display: none;
 }
 
 /* .card-body .overlay {
